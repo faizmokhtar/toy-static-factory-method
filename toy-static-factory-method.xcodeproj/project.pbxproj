@@ -12,6 +12,8 @@
 		98F90EF420C9727100E0FA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F90EF220C9727100E0FA98 /* Main.storyboard */; };
 		98F90EF620C9727200E0FA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F90EF520C9727200E0FA98 /* Assets.xcassets */; };
 		98F90EF920C9727200E0FA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F90EF720C9727200E0FA98 /* LaunchScreen.storyboard */; };
+		98F90F0220C9751200E0FA98 /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90F0120C9751200E0FA98 /* UILabel+Additions.swift */; };
+		98F90F0420C97A7D00E0FA98 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90F0320C97A7D00E0FA98 /* UIViewController+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		98F90EF520C9727200E0FA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F90EF820C9727200E0FA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F90EFA20C9727200E0FA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F90F0120C9751200E0FA98 /* UILabel+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
+		98F90F0320C97A7D00E0FA98 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				98F90EEE20C9727100E0FA98 /* AppDelegate.swift */,
 				98F90EF020C9727100E0FA98 /* ViewController.swift */,
+				98F90F0020C974FD00E0FA98 /* Extensions */,
 				98F90EF220C9727100E0FA98 /* Main.storyboard */,
 				98F90EF520C9727200E0FA98 /* Assets.xcassets */,
 				98F90EF720C9727200E0FA98 /* LaunchScreen.storyboard */,
 				98F90EFA20C9727200E0FA98 /* Info.plist */,
 			);
 			path = "toy-static-factory-method";
+			sourceTree = "<group>";
+		};
+		98F90F0020C974FD00E0FA98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98F90F0120C9751200E0FA98 /* UILabel+Additions.swift */,
+				98F90F0320C97A7D00E0FA98 /* UIViewController+Additions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F90F0420C97A7D00E0FA98 /* UIViewController+Additions.swift in Sources */,
 				98F90EF120C9727100E0FA98 /* ViewController.swift in Sources */,
+				98F90F0220C9751200E0FA98 /* UILabel+Additions.swift in Sources */,
 				98F90EEF20C9727100E0FA98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

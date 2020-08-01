@@ -5,6 +5,7 @@
 //  Created by Faiz Mokhtar on 07/06/2018.
 //  Copyright © 2018 AirAsia. All rights reserved.
 //
+// https://www.swiftbysundell.com/posts/static-factory-methods-in-swift
 
 import UIKit
 
